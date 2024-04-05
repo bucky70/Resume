@@ -1,0 +1,345 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\input{glyphtounicode}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Sai kumar Padamati} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:3528881851}{+1 352 709 7523}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:saikumarpadamati13@gmail.com}{saikumarpadamati13@gmail.com}
+    % $|$
+     \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/search/Stoneridge+Apartments+in+Gainesville/@29.6195981,-82.378175,723m/data=!3m2!1e3!4b1?entry=ttu}{Gainesville, Florida}
+    $|$
+    \faGithub\href{https://github.com/bucky70} { GitHub }%
+    $|$
+    \fancyfoot[]{}\href{https://leetcode.com/saikumar1998/} { Leetcode }%
+    $|$
+    \faLinkedinSquare{\hspace{1pt}} \href{https://www.linkedin.com/in/sai-kumar-padamati-642a6516a/} {LinkedIn}%
+\end{center}
+
+%------------OBJECTIVE------------
+% \section{Summary}
+% Aspiring Computer Science professional with expertise in software development, game development, and GUI development, along with proficiency in cloud technologies. Eager to contribute as a Software Developer to your organization. \textbf{Available to start in May 2024}.
+
+%----------- EDUCATION -----------
+
+\section{Education}
+\vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Florida}{Gainesville, Florida}
+      {Master of Science in Computer Science; GPA: 3.77/4.0}{Aug 2022 -- May 2024}
+    \resumeSubheading
+      {JNTU College of Engineering Hyderabad}{Telangana, India}
+      {Bachelor of Technology in Computer Science and Engineering;  GPA: 3.9/4.0}
+      {Aug 2015 -- May 2019}
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming: }{Java, Javascript, Python, TypeScript, C++, C\#, NodeJS, Golang/Go, Erlang.} \\ \vspace{3pt}
+        \textbf{Web Technologies: }{RESTful APIs, HTML, CSS, ReactJS, ExpressJS, Spring Boot, Spring Security, Spring Kafka}
+        \textbf{Cloud technologies: }{AWS Lambda, DynamoDB, S3 bucket, AWS Athena, Azure, GCP} \\ \vspace{3pt}
+        \textbf{Developer tools: }{Git, Linux, Bash, VS Code, IntelliJ, Postman, Jira, Maven, Groovy, Docker, Confluence, Cassandra} \\ \vspace{3pt}
+        \textbf{Databases: }{SQL, PostgreSQL, MongoDB, Elastic Search, Redis}
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Brillio Technologies}{Hyderabad, India}
+      {Senior Software Engineer}{Mar 2022 \textbf{--} Aug 2022}
+      
+        \resumeItemListStart
+            \resumeItem{Revitalized various modules within a legacy application during the ESAP migration project for Verizon, leading to a 25\% enhancement in the performance of the new application. Developed the backend using Java, Spring Boot, and Oracle SQL, while employing ReactJS for frontend development.
+}
+               \resumeItem{Conducted \textbf{HLD} and \textbf{LLD} reviews, designed the tool’s architecture, and performed trade-off analysis to ensure optimal design choices were made, resulting in an {80\% reduction} in pipeline analysis time and decreased error rates compared to manual analysis.}
+               
+
+            %\resumeItem{Deployed the tool on \textbf{AWS Lambda}, reducing \textbf{operational costs} by an estimated \textbf{40\%} and enhancing \textbf{deployment efficiency} by \textbf{30\%} compared to \textbf{EC2}, while ensuring \textbf{secure, scalable API integration}.}
+            % \resumeItem{Rigorously \textbf{tested} the tool to ensure its effectiveness with various pipeline types, including \textbf{NAWS} and \textbf{MAWS}.}
+            \resumeItem{Used a \textbf{Data Lake} to fetch data points using efficient SQL queries with less than \textbf{1 minute} query execution time.}
+            \resumeItem{Utilized Docker, Kubernetes and Jenkins to ensure the application was tested thoroughly across multiple environments during deployment.}
+            
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Wipro Technologies}{Hyderabad, India}
+      {Project Engineer}{Jun 2019 \textbf{--} Feb 2022}
+        \resumeItemListStart
+            \resumeItem{Contributed to the development of B2B applications for HPE and Fruit of the Loom clients using Java, Springboot, RestAPI, SQL, Git. }              
+            \resumeItem{Played a key role in engineering and implementing new functionalities for the application, including a quoting system, which eliminated the need for
+dependence on other applications. Strengthened skills in both backend and frontend development through this experience.}
+            % Original
+            % \resumeItem{Stored the analysis in DynamoDB, with a limit on the number of records stored for each pipeline, to reduce the memory usage}
+            % \resumeItem{Performed trade-off analysis for various sources of fetching different data}
+            % \resumeItem{Interacted with multiple teams to find the most efficient, optimized source for fetching the required data}
+
+            % \resumeItem{Improved tool throughput by 1.5x by optimizing the backend code.}
+            % Original
+            % \resumeItem{Improved the performance of the tool by 1.5 times by optimizing the backend code}
+
+            % \resumeItem{Ensured coding standards were consistently high, and aligned with the best practices followed by the team and the organization.}
+
+            % Original
+            % \resumeItem{Adhered to the coding standards followed in the team, and organization}
+            % \resumeItem{Improved the quality of code by adhering to the coding standards of the team}
+            % \resumeItem{Had multiple design reviews for both high-level design, and low-level design of the tool, and did trade-off analysis for different alternatives for deployment, storage, etc.} 
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%----------- PROJECTS -----------
+
+\section{Personal Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      % \resumeProjectHeading
+      %   {\textbf{Twitter Clone Using Erlang}}{}
+      %     \resumeItemListStart
+      %       \resumeItem{Implemented a distributed \textbf{Twitter engine} using the \textbf{Erlang actor model}, \textbf{WebSockets}, and \textbf{REST APIs} to efficiently handle hundreds of concurrent user requests.} 
+      %       % \resumeItem{Implemented, and tested various features of the clone.}
+      %       % \resumeItem{Implemented and tested various features of the Twitter clone, such as messaging and reply functionality, with a JSON-based API representing the user interactions.}
+      %       \resumeItem{Achieved high performance and scalability with an average execution time of under \textbf{100ms} and the ability to handle up to \textbf{10,000 concurrent users}.}
+      %       % \resumeItem{Plotted Zipf distribution on the number of subscribers for each user which simulated close to a real-world scenario.}
+      %     \resumeItemListEnd
+      
+      
+      \resumeProjectHeading
+        {\textbf{Stock Portfolio Analyzer}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a visual stock portfolio analyzer from scratch using Java8, \textbf{RESTAPI}, Gradle. Implemented the core logic using \textbf{DesignPatterns}, refactored
+the code to add support for multiple stock services.Improved the application stability and performance by 15\% by using \textbf{multithreads}.
+}
+            % \vspace{50pt} % For pushing the space invaders game to the next page
+     
+          \resumeItemListEnd
+      % \newpage
+      \resumeProjectHeading
+        {\textbf{Wordle Clone}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a Wordle project utilizing Advanced \textbf{React} and \textbf{React Hooks}, including \textbf{useState} and \textbf{useEffect} for state management. Implemented \textbf{Context API} and \textbf{useContext} for efficient state handling across components. Demonstrated strong proficiency in React and JavaScript logic to create an engaging and functional Wordle game experience.}
+            %\resumeItem{Enhanced efficiency by optimizing surface blitting and avoiding drawing unnecessary images that are invisible to the user, resulting in a \textbf{decrease of over 25\%} in resource usage.}
+        \resumeItemListEnd
+        % \newpage
+    \resumeProjectHeading
+    {\textbf{US Vehicle Crash Data Analysis}}{}
+      \resumeItemListStart
+        \resumeItem{Engineered a \textbf{Vehicle Crash Data Analysis} system utilizing \textbf{Java, ReactJS}, and \textbf{Spring Boot}, that can handle visualization of  \textbf{250,000} vehicle crash records.}
+        \resumeItem{Developed a sophisticated \textbf{web-based interface} for the system, facilitating efficient user interaction with extensive crash data for \textbf{thorough analysis} and insights.}
+      \resumeItem{Improved \textbf{data query efficiency} and \textbf{accuracy} in the  tool by \textbf{30\%} writing optimized complex SQL queries.}
+      \resumeItemListEnd
+      
+    % \resumeProjectHeading
+    % {\textbf{Amazon price checker}}{}
+    %   \resumeItemListStart
+    %     \resumeItem{Implemented an Amazon price checker using Beautiful Soup in Python that continually checks the price of an item for us at regular intervals.}
+    %     \resumeItem{Sends us an e-mail if the price has dropped. Configurable as per the requirement of the user.}
+    %   \resumeItemListEnd
+
+
+    % \resumeProjectHeading
+    %     {\textbf{Weather forecasting using Machine Learning}}{}
+    %     \resumeItemListStart
+    %     \resumeItem{Implemented time series forecasting to forecast the weather using historical data.}
+    %     \resumeItem{ARIMA and neural networks have been used and compared for their accuracy of prediction.}
+    %     \resumeItem{Was able to predict the weather for up to 5 days accurately.}
+    %   \resumeItemListEnd
+
+    
+    \resumeSubHeadingListEnd
+
+
+% % %-----------PUBLICATIONS------------------
+% \section{Publications}
+% \resumeSubHeadingListStart
+% \resumeProjectHeading
+%         {\textbf{Automated breast cancer detection system from breast mammogram using deep neural network}}{}
+%           \resumeItemListStart
+%             \resumeItem{\textit{IAES Indonesian Journal of Electrical Engineering and Computer Science (Scopus)}} 
+%             % \resumeItem{Implemented, and tested various features of the clone.}
+%             % \resumeItem{Implemented and tested various features of the Twitter clone, such as messaging and reply functionality, with a JSON-based API representing the user interactions.}
+%             \resumeItem{\textit{Authors: Sai Sandeep E., Suneetha Ch}.}
+%             % \resumeItem{Plotted Zipf distribution on the number of subscribers for each user which simulated close to a real-world scenario.}
+%           \resumeItemListEnd
+%           % \resumeSubHeadingListEnd
+%           \resumeProjectHeading
+%         {\textbf{A Novel CNN Approach for Detecting Breast Cancer from Mammographic Image}}{}
+%           \resumeItemListStart
+%             \resumeItem{\textit{Proceedings of ICMLAS-2021, published in Springer Series - Smart Innovation, Systems and Technologies}} 
+%             % \resumeItem{Implemented, and tested various features of the clone.}
+%             % \resumeItem{Implemented and tested various features of the Twitter clone, such as messaging and reply functionality, with a JSON-based API representing the user interactions.}
+%             \resumeItem{\textit{Authors: Sai Sandeep E., Suneetha Ch}.}
+%             % \resumeItem{Plotted Zipf distribution on the number of subscribers for each user which simulated close to a real-world scenario.}
+%           \resumeItemListEnd
+%           \resumeSubHeadingListEnd
+%     % \end{itemize}
+
+
+% %----------- AWARDS & ACHIEVEMENTS -----------
+
+% \section{Awards \& Achievements}
+%   \vspace{3pt}
+%   \resumeSubHeadingListStart
+%     \small{\item{
+%     Received an \textbf{Achievement Award} of 4500\$ from the University of Florida.} \\ \vspace{4pt}
+        
+%         Completed courses in \textbf{NPTEL} in Programming in C, Programming in Java, Data Base Management System, Internet of things, and Data Analytics with Python with \textbf{ELITE} badge in all of them. \\
+%         \vspace{4pt}
+        
+%         Earned recognition as \textbf{NPTEL Discipline Star} in JAN-APR 2021. \\ \vspace{4pt}
+        
+%         % Member of \textbf{SICO} (Student Integrated Committee) and   organized various events like quiz competitions, Annual Day, and Fresher’s Day. \\ \vspace{4pt}
+
+%     }
+%   \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
