@@ -172,11 +172,11 @@
   \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Programming: }{Java, Javascript, Python, TypeScript, C++, C\#, NodeJS, Golang/Go, Erlang.} \\ \vspace{3pt}
-        \textbf{Web Technologies: }{RESTful APIs, HTML, CSS, ReactJS, ExpressJS, Spring Boot, Spring Security, Spring Kafka}
-        \textbf{Cloud technologies: }{AWS Lambda, DynamoDB, S3 bucket, AWS Athena, Azure, GCP} \\ \vspace{3pt}
-        \textbf{Developer tools: }{Git, Linux, Bash, VS Code, IntelliJ, Postman, Jira, Maven, Groovy, Docker, Confluence, Cassandra} \\ \vspace{3pt}
-        \textbf{Databases: }{SQL, PostgreSQL, MongoDB, Elastic Search, Redis}
+        \textbf{Programming: }{Java, JavaScript, Python, TypeScript, C++, C#, Node.js, Golang/Go, Erlang.} \\ \vspace{3pt}
+        \textbf{Web Technologies: }{RESTful APIs, HTML, CSS, ReactJS, ExpressJS, Spring Boot, Spring Security, Spring Kafka, Microservices, RabbitMQ, Zookeeper.}\\ \vspace{3pt}
+        \textbf{Cloud technologies: }{AWS Lambda, DynamoDB, S3 Bucket, AWS Athena, Azure, Google Cloud Platform (GCP).} \\ \vspace{3pt}
+        \textbf{Developer tools: }{Git, Linux, Bash, VS Code, IntelliJ, Postman, Jira, Maven, Groovy, Docker, Confluence, Cassandra.} \\ \vspace{3pt}
+        \textbf{Databases: }{SQL, PostgreSQL, MongoDB, Elasticsearch, Redis.}
         
         % \textbf{Frameworks}{: X, X, X} \\
         % \textbf{Developer Tools}{: X, X, X} \\
@@ -196,15 +196,14 @@
       {Senior Software Engineer}{Mar 2022 \textbf{--} Aug 2022}
       
         \resumeItemListStart
-            \resumeItem{Revitalized various modules within a legacy application during the ESAP migration project for Verizon, leading to a 25\% enhancement in the performance of the new application.}
- \resumeItem{Developed the backend using Java, Spring Boot, and Oracle SQL, while employing ReactJS on frontend .
-}
-               \resumeItem{Conducted \textbf{HLD} and \textbf{LLD} reviews, designed the tool’s architecture, and performed trade-off analysis to ensure optimal design choices were made, resulting in an {80\% reduction} in pipeline analysis time and decreased error rates compared to manual analysis.}
+            \resumeItem{Restructured various modules within a legacy application during the ESAP migration project for Verizon, resulting in a 25\% enhancement in the performance of the new application.}
+ %\resumeItem{Developed the backend using Java, Spring Boot, and Oracle SQL, while employing ReactJS on frontend .}
+               \resumeItem{Conducted \textbf{HLD} and \textbf{LLD} reviews, designed the tool’s architecture, and performed trade-off analysis to ensure optimal design choices were made, resulting in an {80\% reduction} in pipeline analysis time.}
                
 
             %\resumeItem{Deployed the tool on \textbf{AWS Lambda}, reducing \textbf{operational costs} by an estimated \textbf{40\%} and enhancing \textbf{deployment efficiency} by \textbf{30\%} compared to \textbf{EC2}, while ensuring \textbf{secure, scalable API integration}.}
             % \resumeItem{Rigorously \textbf{tested} the tool to ensure its effectiveness with various pipeline types, including \textbf{NAWS} and \textbf{MAWS}.}
-            \resumeItem{Used a \textbf{Data Lake} to fetch data points using efficient SQL queries with less than \textbf{1 minute} query execution time.}
+           % \resumeItem{Used a \textbf{Data Lake} to fetch data points using efficient SQL queries with less than \textbf{1 minute} query execution time.}
             \resumeItem{Implemented a robust deployment pipeline leveraging Docker, Kubernetes, and Jenkins, resulting in a significant increase in application reliability and scalability across diverse environments. This approach led to a 30\% reduction in deployment failures and a 50\% improvement in deployment speed.}
             
         \resumeItemListEnd
@@ -213,8 +212,8 @@
       {Wipro Technologies}{Hyderabad, India}
       {Project Engineer}{Jun 2019 \textbf{--} Feb 2022}
         \resumeItemListStart
-            \resumeItem{Contributed to the development of B2B applications for HPE and Fruit of the Loom clients using Java, Springboot, RestAPI, SQL, Git. }              
-            \resumeItem{Oversaw the end-to-end process of engineering and integrating new functionalities into the application, notably a quoting system. This initiative eliminated dependencies on external applications and slashed user time by 25\%. Additionally, honed both backend and frontend development skills, resulting in a more versatile skill set.}
+            \resumeItem{Collaborated on the backend development of B2B applications for HPE and Fruit of the Loom clients.}              
+            \resumeItem{Supervised the end-to-end process of engineering and integrating new functionalities into the application, notably a quoting system. This initiative eliminated dependencies on external applications and slashed user time by 25\%. }
             % Original
             % \resumeItem{Stored the analysis in DynamoDB, with a limit on the number of records stored for each pipeline, to reduce the memory usage}
             % \resumeItem{Performed trade-off analysis for various sources of fetching different data}
@@ -255,24 +254,26 @@
       \resumeProjectHeading
         {\textbf{Stock Portfolio Analyzer}}{}
           \resumeItemListStart
-            \resumeItem{Designed and executed a visual stock portfolio analyzer from scratch using Java8, \textbf{RESTAPI}, Gradle. Implemented the core logic using \textbf{DesignPatterns}, refactored
-the code to add support for multiple stock services.Improved the application stability and performance by 15\% by using \textbf{multithreads}.
+            \resumeItem{Designed and executed a visual stock portfolio analyzer from scratch using Java8, \textbf{REST API}, Gradle. Created the core logic using \textbf{DesignPatterns}, refactored
+the code to add support for multiple stock services.Improved the application stability and performance by 15\% by using \textbf{multi-threading}.
 }
             % \vspace{50pt} % For pushing the space invaders game to the next page
      
           \resumeItemListEnd
       % \newpage
       \resumeProjectHeading
-        {\textbf{Wordle Clone}}{}
+        {\textbf{Event-Driven Microservices using Twitter4j API }}{}
           \resumeItemListStart
             %\resumeItem{Created a Wordle project utilizing Advanced \textbf{React} and \textbf{React Hooks}, including \textbf{useState} and \textbf{useEffect} for state management. Implemented \textbf{Context API} and \textbf{useContext} for efficient state handling across components. Demonstrated strong proficiency in React and JavaScript logic to create an engaging and functional Wordle game experience.}
-            \resumeItem{Built an interactive Wordle project leveraging Advanced \textbf{React} and \textbf{React Hooks}, incorporating \textbf{useState} and \textbf{useEffect} for efficient state management. Implemented \textbf{Context API} and \textbf{useContext} for seamless state handling across components.}
+            \resumeItem{Utilized an elevated developer account on Twitter to integrate the \textbf{Twitter4J API}, enabling real-time filtering of tweets.Streamlined \textbf{microservices architecture} to ensure that services could be developed, deployed, and scaled independently. Leveraged \textbf{Docker} images to create and manage \textbf{Kafka} and \textbf{Elasticsearch} clusters.}
+             \resumeItem{Customized Elasticsearch as a \textbf{Kafka consumer} to store filtered tweets as documents in specific indices. Applied \textbf{Kafka streams} to transform tweet data, producing a word count from the stored tweets.}
+             \resumeItem{Engineered \textbf{REST APIs} to fetch and validate data from Elasticsearch based on requests made through \textbf{Postman}. This enabled efficient data retrieval and provided a seamless interface for interacting with the stored tweet data.}
         \resumeItemListEnd
         % \newpage
     \resumeProjectHeading
     {\textbf{US Vehicle Crash Data Analysis}}{}
       \resumeItemListStart
-        \resumeItem{Crafted a \textbf{Vehicle Crash Data Analysis} system utilizing \textbf{Java, ReactJS}, and \textbf{Spring Boot}, that can handle visualization of  \textbf{250,000} vehicle crash records.}
+        \resumeItem{Built a \textbf{Vehicle Crash Data Analysis} system utilizing \textbf{Java, ReactJS}, and \textbf{Spring Boot}, that can handle visualization of  \textbf{250,000} vehicle crash records.}
         \resumeItem{Architected a cutting-edge web-based interface for seamless user interaction with crash data, enabling in-depth analysis and insights, resulted in a 40\% reduction in product development cycle time and a 25\% increase in customer satisfaction rates.}
       \resumeItem{Improved \textbf{data query efficiency} and \textbf{accuracy} in the  tool by \textbf{30\%} writing optimized complex SQL queries.}
       \resumeItemListEnd
